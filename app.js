@@ -1,7 +1,8 @@
-const number = 7;
+const word1 = "Яблоко";
+const word2 = "Яма";
 
-if (number % 2 === 0) {
-  console.log("Число четное");
+if (word1[0] === word2[0]) {
+  console.log("Первые буквы совпадают");
 } else {
-  console.log("Число нечетное");
+  console.log("Первые буквы не совпадают");
 }
