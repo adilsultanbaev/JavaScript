@@ -1,7 +1,3 @@
-const number = 10;
+const str = "Привет, мир!";
 
-if (number < 0) {
-  console.log("Число отрицательное");
-} else {
-  console.log("Число не отрицательное");
-}
+console.log("Длина строки:", str.length);
