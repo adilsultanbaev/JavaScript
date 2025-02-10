@@ -1,3 +1,7 @@
-const str = "JavaScript";
+const number = 7;
 
-const lastChar = str[str.length - 1];
+if (number % 2 === 0) {
+  console.log("Число четное");
+} else {
+  console.log("Число нечетное");
+}
