@@ -1,3 +1,3 @@
-const str = "Привет, мир!";
+const str = "JavaScript";
 
-console.log("Длина строки:", str.length);
+const lastChar = str[str.length - 1];
