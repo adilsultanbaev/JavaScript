@@ -1,8 +1,9 @@
-const word1 = "Яблоко";
-const word2 = "Яма";
+const word = "День";
 
-if (word1[0] === word2[0]) {
-  console.log("Первые буквы совпадают");
-} else {
-  console.log("Первые буквы не совпадают");
+let lastChar = word[word.length - 1];
+
+if (lastChar === "ь") {
+  lastChar = word[word.length - 2];
 }
+
+console.log("Последняя буква слова:", lastChar);
