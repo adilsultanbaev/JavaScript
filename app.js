@@ -1,3 +1,5 @@
 let number = 12345;
-let lastDigit = String(number).slice(-1);
-console.log(lastDigit);
+let strNumber = String(number);
+let firstDigit = +strNumber[0];
+let lastDigit = +strNumber.slice(-1);
+console.log(firstDigit + lastDigit);
