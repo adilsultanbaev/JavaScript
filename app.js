@@ -1,3 +1,3 @@
 let number = 12345;
-let firstDigit = String(number)[0];
-console.log(firstDigit);
+let lastDigit = String(number).slice(-1);
+console.log(lastDigit);
