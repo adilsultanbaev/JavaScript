@@ -1,9 +1,3 @@
-const word = "День";
-
-let lastChar = word[word.length - 1];
-
-if (lastChar === "ь") {
-  lastChar = word[word.length - 2];
-}
-
-console.log("Последняя буква слова:", lastChar);
+let number = 12345;
+let firstDigit = String(number)[0];
+console.log(firstDigit);
